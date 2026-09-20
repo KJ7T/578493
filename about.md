@@ -4,10 +4,8 @@ title: About This Node
 permalink: /about.html
 ---
 
-**Node:** {{ site.node_number }}
-**Callsign:** {{ site.callsign }}
-**Type:** [e.g. Repeater link, simplex node, hub/link node with no local RF]
+**Node:** {{ site.node_number }}\
+**Callsign:** {{ site.callsign }}\
+**Type:** Simplex AllStar node with local RF
 
-*(Describe what this node is, how it's typically used, what it's linked
-to, and anything a visitor would find useful — net schedules, hours of
-operation, how to request a link, coverage area if applicable, etc.)*
+This node uses an AllScan URI150 and a Retevis RT85 radio for an RF-based AllStar node. The computer attached is a Dell Wyse 3040 thin client running Debian Linux. This machine is in Portland, Oregon.
